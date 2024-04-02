@@ -259,7 +259,9 @@ function PostForm({ post }) {
 							setText(editor.getContent({ format: "text" }))
 						}
 						value={value}
-						initialValue={"Write your thoughts here..."}
+						initialValue={
+							value ? value : "Write your thoughts here..."
+						}
 						init={{
 							plugins: plugins,
 							toolbar: toolbars,
