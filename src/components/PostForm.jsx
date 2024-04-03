@@ -149,16 +149,19 @@ function PostForm({ post }) {
 		return (
 			<>
 				<div className="min-h-screen flex justify-center items-center dark:bg-black">
-					<ScaleLoader
-						color={
-							document.body.classList.contains("dark")
-								? "white"
-								: "black"
-						}
-						height={40}
-						width={6}
-						radius={4}
-					/>
+					<div>
+						<ScaleLoader
+							color={
+								document.body.classList.contains("dark")
+									? "white"
+									: "black"
+							}
+							height={40}
+							width={6}
+							radius={4}
+						/>
+						<p className="text-sm">Wait its take time ...</p>
+					</div>
 				</div>
 			</>
 		);
