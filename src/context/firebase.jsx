@@ -130,7 +130,7 @@ export function FirebaseProvider({ children }) {
 				console.log(user);
 			})
 			.catch((error) => {
-				consol.log("Sign in With Google:", error);
+				console.log("Sign in With Google:", error);
 			});
 	}
 
