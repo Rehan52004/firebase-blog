@@ -105,11 +105,11 @@ function Login() {
               <Link to={'/sign-up'}>Signup</Link>
             </span>
           </small>
-          <div className='flex items-center'>
+          {/* <div className='flex items-center'>
             <div className='h-[1px] w-full bg-slate-300 dark:bg-slate-600 mx-3'></div>
             <p className='text-center dark:text-white'>or</p>
             <div className='h-[1px] w-full bg-slate-300 dark:bg-slate-600 mx-3'></div>
-          </div>
+          </div> */}
           {/* <button
 						onClick={googleSignIn}
 						className="flex items-center justify-center border border-slate-300 px-5 py-2 rounded-full w-full text-lg mt-3 dark:text-white dark:border-slate-600"
