@@ -47,7 +47,7 @@ function Footer() {
               </div>
             </div>
             <p className='text-sm text-slate-400'>
-              © 2024 BlogShere — Building in 🏙 Lucknow, India 🇮🇳
+              © 2025 BlogShere — Building in 🏙 Lucknow, India 🇮🇳
             </p>
           </div>
           <div className='flex mt-10 lg:mt-0 lg:pl-40'>
